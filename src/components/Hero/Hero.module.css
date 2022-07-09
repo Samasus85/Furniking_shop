@@ -1,0 +1,90 @@
+.slider{
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 890px; height: 480px;
+    overflow: hidden;
+    background: linear-gradient(103.4deg, rgba(241, 250, 255, 0.88) 0.89%, #F1FAFF 101.61%);
+    position: relative;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .slide_content{
+    display: flex;
+    overflow: hidden;
+    min-height: 100%;
+    width: 100vw;
+  }
+.hero_title{
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+    padding-top: 32px;
+    max-width: 900px;
+}
+.hero_title h1{
+    width: 400px;
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 47px;
+color: #2F2F2F;
+margin-left: 50px;
+}
+.hero_title h3{
+    width: 324px;
+height: 25px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 27px;
+line-height: 26px;
+color: rgba(81, 81, 81, 0.71);
+margin-left: 50px;
+}
+.hero_title h2{
+    width: 279px;
+    height: 25px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #7AC751;
+    margin-left: 50px;
+}
+
+.link{
+    width: 129px;
+height: 40px;
+background: #7AC751;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+margin-top: 50px;
+margin-left: 50px;
+border-radius: 6px;
+text-align: center;
+padding-top: 10px;
+}
+.btns{
+position: absolute;
+bottom: 32px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 16px;
+}
+.button{
+    height: 8px;
+    border: 1px solid #7AC751;
+    transition-property: all;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 150ms;
+transition: ease-in-out;
+border-radius: 30px;
+}

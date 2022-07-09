@@ -1,0 +1,68 @@
+.burger {
+    grid-area: b;
+    background-color: #7ac751;
+    height: 50px;
+    width: 275px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+    color: #fff;
+    padding-left: 10px;
+    /* margin-right: 5px; */
+    margin-left: -5px;
+}
+
+.all{
+    width: 250px;
+height: 19px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+.sideBar {
+    grid-area: s;
+    margin-top: 13px;
+    margin-left: 30px;
+    padding-left: 5px;
+    width: 260px;
+}
+.items {
+    width: 100px;
+}
+.item{
+    width: 17px;
+height: 17px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.02em;
+color: #555555;
+}
+.sideBar button {
+    background: #f7f8fa;
+    width: 275px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #e3e3e3;
+    text-align: start;
+    color: #555555;
+    padding-left: 25px;
+}
+.items a:active {
+    color: rgb(0, 0, 0);
+}
+.items a:hover,
+.items a:active,
+.items a.activeLink {
+    color: #7ac751;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid #7ac751;
+}
