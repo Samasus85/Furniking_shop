@@ -1,0 +1,137 @@
+.search {
+    margin: 50px auto;
+    width: 1200px;
+}
+.search_block{
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0;
+    padding: 20px;
+}
+.search_block i{
+    color: lightgray;
+    font-size: 20px;
+}
+.search h1{
+    text-align: center;
+    color: #7ac751;
+    font-weight: bold;
+}
+.search input {
+    width: 382px;
+    height: 40px;
+    border: 2px solid #7ac751;
+    border-right: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 0 15px;
+    z-index: 3;
+    /* border: none; */
+}
+.search select {
+    position: relative;
+    top: 1px;
+    left: 5px;
+    z-index: 1;
+    width: 170px;
+    height: 40px;
+    border: 2px solid #7ac751;
+    border-left: 1px solid rgb(223, 222, 222);
+    border-right: none;
+    text-align: center;
+    outline: none;
+    margin-left: -15px;
+    padding: 0 10px;
+    color: #7ac751;
+}
+
+
+.search_input{
+    background: transparent;
+    border-radius: 10px;
+   
+}
+.search_btn {
+    width: 55px;
+    height: 40px;
+    background: #7ac751;
+    border: none;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 1.5px;
+    /* right: 2px; */
+    /* z-index: 1; */
+    /* margin-bottom: 1px; */
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 24px;
+}
+.filter{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-left: 900px;
+}
+.filter span{
+    /* width: 100px; */
+    /* height: 30px; */
+    border: 1px solid lightgray;
+    padding: 0 30px;
+    /* margin: 0 10px; */
+
+}
+.filter span:last-child{
+    border: none;
+    position: relative;
+    right: 10px;
+}
+.filter p{
+width: 220px;
+height: 23px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+letter-spacing: 0.008em;
+color: #757575;
+}
+.btns{
+    width: 100px;
+    height: 30px;
+    background: #7ac751;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+.btns button{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+.btns i{
+color: #fff;
+font-size: 14px;
+}
+@media screen {
+    .search_block{
+        padding: 0 24px;
+    }
+}

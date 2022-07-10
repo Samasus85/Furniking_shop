@@ -1,0 +1,137 @@
+.card_block{
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+.card_block:hover{
+    box-shadow: 0 12px 26px -3px #cdfbb6, 0 8px 10px -6px #cdfbb6;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+}
+
+.button-block{
+    position: absolute;
+    bottom: 240px;
+    right: 0;
+    left: 215px;
+    opacity: 0;
+    gap: 8px;
+    transition: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+    transition-duration: 300;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.button{
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    background: rgb(231, 250, 222);
+    color: #7AC751;
+    transition: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+    transition-duration: 300;
+    display: grid;
+    align-items: flex-end;
+    border-radius: 6px;
+}
+.button:hover{
+    background: #7AC751;
+    color: #fff;
+}
+.button i{
+    font-size: 18px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+}
+.title>h2{
+    width: 190px;
+height: 28px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0.005em;
+color: #555555;
+margin: 10px;
+}
+.title p{
+    color: #bff1a4;
+    font-weight: bold
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ;
+}
+.title del{
+    color: lightgray;
+}
+.price{
+    font-size: 18px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.price p{
+    margin: 8px 0;
+}
+/* 
+.content button{
+    width: 8px;
+    height: 8px;
+    padding: 4px;
+    background: lightgray;
+    align-items: flex-end;
+    border-radius: 4px;
+color: #7ac751;
+transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 150ms;
+grid: inherit;
+}
+.content button:hover{
+    color: lightgray;
+    background: #7ac751;
+} */

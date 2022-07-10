@@ -1,0 +1,60 @@
+.container{
+    width: 1200px;
+    background: #7ac751;
+    color: lightgray;
+margin: 38px auto;
+height: 60%;
+}
+.title{
+    font-size: 22px;
+    font-weight: 900;
+    margin-left: 30px;
+}
+.address{
+    width: 1200px;
+}
+.address h2{
+    width: 360px;
+    color: lightgray;
+    font-size: 16px;
+    position: relative;
+    right: 0;
+    top: -30px;
+    /* bottom: 50px; */
+    left: 480px;
+}
+.feedback{
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+.feedback input{
+    width: 300px;
+    margin: 10px 0;
+    color: #7ac751;
+}
+.feedback:placeholder{
+    color: lightgray;
+}
+.feedback p{
+    color: lightgray;
+    /* line-height: 3.5px; */
+    font-weight: 700;
+    font-size: 22px;
+}
+.feedback textarea{
+    width: 90%;
+    height: 130px;
+    background: #fff;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    color: #7ac751;
+}
+.feedback button{
+    width: 200px;
+    background: #fff;
+    margin: 30px;
+    color: #7ac751;
+    border-radius: 6px;
+}

@@ -1,0 +1,67 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.title{
+    width: 519px;
+height: 45px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 45px;
+text-align: center;
+text-transform: uppercase;
+color: #555555;
+margin: 10px auto;
+
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 20px;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    align-items: center;
+    padding: 20px;
+    gap: 12px;
+
+}
+.avatar{
+    display: flex;
+    justify-content: space-around;
+}
+.avatar span{
+    width: 150px;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+}
+.avatar img{
+    width: 50px;
+    height: 50px;
+}
+.stars{
+    display: flex;
+}
+
+.date{
+    color: gray;
+}
+.block p{
+    width: 326px;
+/* height: 96px; */
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+letter-spacing: 0.005em;
+color: #515151;
+}

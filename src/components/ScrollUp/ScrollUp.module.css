@@ -1,0 +1,24 @@
+.scrollup{
+    animation: pulse 2s cubic-bezier(0.2, 0, 0.4, 1) infinite;
+    cursor: pointer;
+    background: #e7f3e0;
+    display: grid;
+    align-items: center;
+    padding: 8px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.scrollup i{
+    color: #7AC751;
+}
+@keyframes pulse {
+    0%, 100% {
+      opacity: 3;
+    }
+    50% {
+      opacity: .3;
+      background: #bbf89b;
+      
+    }
+  }

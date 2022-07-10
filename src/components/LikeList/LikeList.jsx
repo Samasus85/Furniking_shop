@@ -1,8 +1,9 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { addToCart } from '../../redux/cart.js';
-import { removeFromlikeList } from '../../redux/likeList.js';
+// import { removeFromLikeList } from '../redux/LikeList.js';
+import { addToCart } from '../../redux/cart';
+import { removeFromlikeList } from '../../redux/likeList';
 
 const LikeList = () => {
   const dispatch = useDispatch();

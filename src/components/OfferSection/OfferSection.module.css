@@ -1,0 +1,156 @@
+.container {
+    width: 1200px;
+    margin: 20px auto;
+}
+.bg {
+    height: 450px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.special {
+
+    width: 277px;
+    height: 45px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #555555;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.bg_left {
+    width: 580px;
+    background-image: url(../../assets/images/banner/offer-left.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+.bg_right {
+    width: 580px;
+    background-image: url(../../assets/images/banner/offer-right.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.title {
+    width: 280px;
+    height: 100px;
+}
+.title h3 {
+    width: 227px;
+    height: 28px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #555555;
+}
+.title p {
+    width: 227px;
+    height: 38px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #757575;
+}
+.price {
+    width: 220px;
+    height: 80px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.price span {
+    width: 46px;
+    height: 21px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #7ac751;
+}
+.price del {
+    width: 50px;
+    height: 21px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    text-decoration-line: line-through;
+    color: #cccccc;
+}
+.price button {
+    width: 91px;
+    height: 26px;
+}
+.timer {
+    width: 230px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.timer span {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    background: #7ac751;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    padding-left: 7px;
+}
+.button {
+    font-size: 14px;
+    width: 129px;
+    height: 40px;
+    border: none;
+    background: #7ac751;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.button:hover,
+.button:active {
+    background: #7ac751;
+    /* border-color: #741188; */
+}
+
+.button:focus {
+    outline: none;
+}
+
+button:disabled,
+button:focus:disabled,
+button:hover:disabled,
+button:active:disabled {
+    background: rgb(219, 255, 196);
+    border-color: #ccc;
+    color: #077601;
+    cursor: not-allowed;
+}
