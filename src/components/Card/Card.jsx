@@ -1,7 +1,8 @@
 import React, { useRef } from 'react'
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../../redux/cart.js';
+// import { addToWishlist } from '../../redux/wishlist.js';
 import useHomeAnimate from '../../hooks/useIntersectAnimate';
 import './Card.css'
 import { addTolikeList } from '../../redux/likeList.js';
@@ -13,7 +14,7 @@ const Card = ({ id, category, title, price, image, oldPrice }) => {
             rootMargin: '0px',
             threshold: 0.1,
       }, cardRef);
-      const history = useHistory();
+      const navigate = useNavigate();
       const dispatch = useDispatch();
 
       const addProdToCart = () => {
@@ -30,7 +31,7 @@ const Card = ({ id, category, title, price, image, oldPrice }) => {
                         <button onClick={addProdToCart}
                               className=" button "
                         ><i className=" fas fa-shopping-bag"></i></button>
-                        <button onClick={() => history(`/catalog/${id}`)} className="button"><i className=" fas fa-eye"></i></button>
+                        <button onClick={() => navigate(`/catalog/${id}`)} className="button"><i className=" fas fa-eye"></i></button>
                         <button onClick={wishlistHandle} className="button"><i className=" fas fa-heart"></i></button>
                   </div>
                   <div><h3>{category}</h3></div>
