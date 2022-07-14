@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import { About, Accordion, Blog, Card, Catalog, Contact, Header, Home, LikeList, Notfound, PolicyPage, Product, Profile } from './components';
+import { About, Accordion, Blog, Card, Catalog, Contact, Footer, Header, Home, LikeList, Notfound, PolicyPage, Product, Profile } from './components';
 
 function App() {
   return (
@@ -20,9 +20,8 @@ function App() {
         <Route path="blog" element={<Blog />} />
         <Route path="policy" element={<PolicyPage />} />
         <Route path="accordion" element={<Accordion />} />
-
       </Routes>
-
+      <Footer />
     </div>
   );
 }
