@@ -1,15 +1,21 @@
 import { configureStore } from "@reduxjs/toolkit";
+
+import products from "./products";
 import cart from "./cart";
-import likeList from "./likeList";
+import wishlist from "./wishlist";
+import authReducer from "./auth";
+
 
 
 export default configureStore({
-    reducer: {
-        cartProds: cart,
-        likeListProds: likeList,
-    },
-    middleware: getDefaultMiddleware =>
-        getDefaultMiddleware({
-            serializableCheck: false,
-        }),
-})
+  reducer: {
+    products,
+    cartProds: cart,
+    wishlistProds:wishlist,
+    auth:authReducer
+  },
+  middleware: getDefaultMiddleware =>
+  getDefaultMiddleware({
+    serializableCheck: false,
+  }),
+});
