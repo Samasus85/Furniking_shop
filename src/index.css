@@ -7,34 +7,42 @@
   margin: 0;
   padding: 0;
 }
+
 *,
 *::after,
 *::before {
   box-sizing: inherit;
 }
+
 html {
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Rubik', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-   min-height: 100vh;
+  min-height: 100vh;
 }
-::selection{
+
+::selection {
   color: #dd6060;
   background-color: transparent;
 }
+
 /* scrollbar styles */
 ::-webkit-scrollbar {
   width: 10px;
-} 
+}
+
 ::-webkit-scrollbar-thumb {
   background: #7AC751;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: #7AC751;
 }
+
 /* input number located in product component. we need to hide the arrows of the input */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -47,10 +55,11 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
- .fas{
+.fas {
   transition: all 300ms ease;
 }
-.fas:hover{
+
+.fas:hover {
   transform: translateY(-4px);
 }
 
@@ -58,13 +67,15 @@ input[type=number] {
 
 /*header responsiveness styling*/
 
-.mobileNav{
+.mobileNav {
   background-color: #7AC751;
   color: azure;
   position: absolute;
-  top:0; right: 0; left: 0;
+  top: 0;
+  right: 0;
+  left: 0;
   height: 70vh;
-  padding:45px 30px;
+  padding: 45px 30px;
   flex-direction: column;
   z-index: 10;
   margin-top: -10px;
@@ -72,89 +83,112 @@ input[type=number] {
   opacity: 1;
   transition: transform 300ms ease, opacity 600ms ease;
 }
-.hiddenNav{
+
+.hiddenNav {
   opacity: 0;
   transform: translateY(-600px);
 }
 
-.mobileIcons{
+.mobileIcons {
   position: fixed;
-  bottom:10px; right: 10px; left: 10px;
+  bottom: 10px;
+  right: 10px;
+  left: 10px;
   background-color: #7AC751;
   border-radius: 6px;
   padding: 15px 30px;
   z-index: 10;
   transition: all 300ms ease;
 }
-.mobileIcons i{  color: #a9b3b3 !important; font-size: 40px;}
-.fa-bars{
+
+.mobileIcons i {
+  color: #a9b3b3 !important;
+  font-size: 40px;
+}
+
+.fa-bars {
   z-index: 11;
   color: #302a2f;
 }
-.fa-times{
-  color:#e1ebeb;
+
+.fa-times {
+  color: #e1ebeb;
 }
 
 
 /* slider styles */
-.slider{
+.slider {
   margin-top: 15px;
   margin-left: 5px;
-  width: 890px; height: 480px;
+  width: 890px;
+  height: 480px;
   overflow: hidden;
   background: linear-gradient(103.4deg, rgba(241, 250, 255, 0.88) 0.89%, #F1FAFF 101.61%);
 }
-.slide{
-  height: 100%; width: 100%; position: absolute; top: 0; right: 0;
-  display: flex; align-items: center; justify-content: space-between;
+
+.slide {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   overflow: hidden;
   transform: translateX(800px);
   transition: transform 1000ms ease, opacity 1300ms ease;
   opacity: 0;
 }
-.nextSlide{
+
+.nextSlide {
   transform: translateX(800px);
   opacity: 0;
 }
-.lastSlide{
+
+.lastSlide {
   transform: translateX(-800px);
   opacity: 0;
 }
-.activeSlide{
+
+.activeSlide {
   opacity: 1;
   transform: translateX(0);
 }
 
 /* grid explore syles */
 
-.card1{
+.card1 {
   background-image: url("/public/assets/images/livingroom.png");
   background-position: center;
   background-size: cover;
 }
-.card2{
+
+.card2 {
   background-image: url("/public/assets/images/bathroom.svg");
   background-size: cover;
   background-position: center;
 }
-.card3{
+
+.card3 {
   background-image: url("/public/assets/images/kitchen.png");
   background-position: center;
   background-size: cover;
 }
 
 /* card of producst */
-.card:hover .btns{
+.card:hover .btns {
   opacity: 1;
 }
 
 /* animation of cards of products */
-.card{
+.card {
   opacity: 0;
   transform: scale(.8);
   transition: all 500ms ease;
 }
-.card--animated{
+
+.card--animated {
   opacity: 1;
   transform: scale(1);
 }

@@ -1,19 +1,22 @@
-.container{
+.container {
     width: 1200px;
     /* height: 100vh; */
     margin: 50px auto;
 }
-.title{
+
+.title {
     font-weight: bolder;
     color: #7ac751;
     text-align: center;
 }
-hr{
+
+hr {
     width: 100%;
     margin-top: 16px;
     margin-bottom: 24px;
 }
-.empty{
+
+.empty {
     min-width: 800px;
     display: flex;
     justify-content: center;
@@ -22,35 +25,42 @@ hr{
     gap: 24px;
     padding-top: 10vh;
 }
-.empty h1{
+
+.empty h1 {
     text-align: center;
     font-size: 32px;
     font-weight: bolder;
     color: crimson;
 }
-.empty p{
+
+.empty p {
     text-align: center;
     color: #7ac751;
 }
-.link{
+
+.link {
     width: 256px;
     background: #7ac751;
     color: #fff;
     padding-left: 20px;
 }
-.card_block{
+
+.card_block {
     width: 100%;
     height: auto;
     min-height: 500px;
     display: flex;
     justify-content: space-between;
 }
-.card_content{
+
+.card_content {
     padding: 4px;
     width: 65%;
 }
-.shipping{
+
+.shipping {
     position: relative;
+    top: -80px;
     left: 912px;
     bottom: 178px;
     width: 440px;
@@ -58,11 +68,13 @@ hr{
     color: #fff;
     padding: 0 8px;
 }
-.shipping h1{
+
+.shipping h1 {
     color: #fff;
     margin-bottom: 16px;
 }
-.input{
+
+.input {
     display: block;
     width: 100%;
     outline: none;
@@ -70,7 +82,8 @@ hr{
     padding: 8px;
     margin-top: 12px;
 }
-.update{
+
+.update {
     padding: 8px;
     background: #7ac751;
     font-size: 18px;
@@ -80,10 +93,12 @@ hr{
     box-shadow: 1px 1px 3px 3px rgb(200, 198, 198);
     /* border-radius: 16px; */
 }
-.check{
+
+.check {
     width: 100%;
 }
-.check input{
+
+.check input {
     width: 10px;
     height: 10px;
     border: 1px solid lightgray;
@@ -98,28 +113,34 @@ hr{
     font-size: 18px;
 
 }
-.check input:checked{
+
+.check input:checked {
     background: red;
 }
-.check input:focus{
+
+.check input:focus {
     outline: none;
 }
-.check label{
+
+.check label {
     display: inline-block;
     color: #fff;
     font-size: 16px;
 }
+
 @media (min-width:976px) {
-    .card_block{
+    .card_block {
         display: grid;
         margin-bottom: 8px;
-        
+
     }
-    .card_content{
+
+    .card_content {
         grid-column: span 3 / span 3;
         margin-right: 16px;
     }
-    .shipping{
+
+    .shipping {
         position: relative;
         left: 912px;
         bottom: 188px;
@@ -127,9 +148,10 @@ hr{
         margin-top: 0;
     }
 }
+
 @media (min-width:768px) {
-    .shipping{
+    .shipping {
         padding: 16px 32px;
     }
-    
+
 }

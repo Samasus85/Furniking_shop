@@ -5,18 +5,20 @@
     flex-wrap: wrap;
     margin: 0 auto;
 }
- .title {
-    width: 410px;
-height: 51px;
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 45px;
-text-transform: uppercase;
-color: #555555;
-margin: 0 auto;
+
+.title {
+    width: 510px;
+    height: 51px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #555555;
+    margin: 0 auto;
 }
+
 .post1 {
     width: 585px;
     height: 455.28px;
@@ -29,6 +31,7 @@ margin: 0 auto;
     color: #fff;
     padding-top: 260px;
 }
+
 .post2 {
     margin-top: 20px;
     width: 585px;
@@ -37,32 +40,36 @@ margin: 0 auto;
     top: 5049.66px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/blog/post2.svg);
     background-size: cover;
-    border-radius: 8px; 
+    border-radius: 8px;
     padding-top: 260px;
     color: #fff;
 }
-.read{
+
+.read {
     width: 85px;
-height: 25px;
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 130%;
-letter-spacing: 0.008em;
-margin: 20px;
+    height: 25px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.008em;
+    margin: 20px;
 }
-.read:hover{
+
+.read:hover {
     background: #7ac751;
     padding: 4px;
     border-radius: 8px;
     width: 100px;
 }
-.read i{
+
+.read i {
     font-size: 12px;
     color: #fff;
     padding-left: 5px;
 }
+
 .post3 {
     margin-top: 20px;
     width: 585px;
@@ -75,6 +82,7 @@ margin: 20px;
     padding-top: 260px;
     color: #fff;
 }
+
 .post4 {
     margin-top: 20px;
     width: 585px;
@@ -95,18 +103,23 @@ margin: 20px;
     justify-content: space-between;
     font-size: 14px;
 }
+
 /* .tag_block p, */
-.post1 h4, .post2 h4, .post3 h4, .post4 h4 {
+.post1 h4,
+.post2 h4,
+.post3 h4,
+.post4 h4 {
     color: #fff;
     width: 490.1px;
-height: 75.88px;
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 700;
-font-size: 39px;
-line-height: 120%;
-letter-spacing: 0.005em;
+    height: 75.88px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
 }
+
 .tag {
     width: 100px;
     height: 24px;
@@ -122,6 +135,7 @@ letter-spacing: 0.005em;
     width: 16px;
     height: 16px;
 }
+
 .tag h5 {
     color: #7ac751;
     font-size: 12px;
