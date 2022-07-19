@@ -1,3 +1,63 @@
+.container {
+  width: 1200px;
+  margin: 100px auto;
+}
+
+.form {
+  margin-top: 80px;
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+
+}
+
+.form h1 {
+  color: #7ac751;
+  font-size: 36px;
+  margin-bottom: 32px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.form input {
+  background: #d7fec2;
+  padding: 8px 16px;
+  margin: 8px 0;
+  outline: none;
+}
+
+.sign {
+  color: #7ac751;
+  text-align: center;
+}
+
+.registr {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.sign span {
+  font-size: 14px;
+}
+
+.btn {
+  background: #7ac751;
+  cursor: pointer;
+  padding: 2px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.signup {
+  color: red;
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* 
 .login {
   width: 90%;
   max-width: 40rem;
@@ -45,9 +105,19 @@
 
 .actions {
   text-align: center;
+} */
+
+@media (min-width:967px) {
+  .form {
+    width: 50%;
+  }
 }
 
 @media (min-width: 768px) {
+  .form {
+    width: 75%;
+  }
+
   .control {
     align-items: center;
     flex-direction: row;
