@@ -18,6 +18,14 @@
 
 }
 
+.avatar span {
+    color: #7ac751;
+}
+
+.avatar img {
+    border-radius: 50%;
+}
+
 .content {
     display: flex;
     justify-content: space-between;
@@ -28,7 +36,7 @@
 .block {
     display: flex;
     flex-direction: column;
-    border: 1px solid lightgray;
+    border: 1px solid #7ac751;
     border-radius: 6px;
     align-items: center;
     padding: 20px;
@@ -57,8 +65,9 @@
     display: flex;
 }
 
-.date {
+.avatar .date {
     color: gray;
+    font-size: 14px;
 }
 
 .block p {
@@ -71,5 +80,5 @@
     line-height: 150%;
     text-align: center;
     letter-spacing: 0.005em;
-    color: #515151;
+    color: #7ac751;
 }

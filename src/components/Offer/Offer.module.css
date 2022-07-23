@@ -70,18 +70,18 @@
 }
 
 .read {
-    top: 110vh;
-    left: 25vh;
+    top: 970px;
+    left: 150px;
 }
 
 .read1 {
-    top: 110vh;
-    left: 105vh;
+    top: 950px;
+    left: 850px;
 }
 
 .read2 {
-    top: 135vh;
-    left: 105vh;
+    top: 1200px;
+    left: 850px;
 }
 
 .read:hover,
@@ -92,6 +92,7 @@
     border-radius: 8px;
     width: 100px;
     color: #fff;
+    padding-left: 10px;
 }
 
 .read i,
